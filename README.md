@@ -5,7 +5,7 @@ The repository contains many folders, each folder has 3 files used to retrieve t
 
     1. java file -> contains the MapReduce functions
     2. part-r-00000 file -> txt file with keys and values, results of MapReduce
-    3. shell file -> txt file with the shell commands used to visualize the intended result
+    3. shell.sh -> shell script used to visualize the intended result
 
 There are the questions I had and the achieved results:
 
