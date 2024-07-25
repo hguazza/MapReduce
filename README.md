@@ -1,7 +1,5 @@
 # MapReduce
-MapReduce Jobs created with Java to analyse information
-
-The dataset analysed worldwide commercial transactions
+MapReduce Jobs created with Java to analyse information from a dataset with worldwide commercial transactions.
 
 The repository contains many folders, each folder has 3 files used to retrieve the information:
     1. java file -> contains the MapReduce functions
