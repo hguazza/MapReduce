@@ -1,0 +1,97 @@
+INFORMAÇÃO 1: Qual país com maior número de transações comerciais?
+
+RESPOSTA:
+[henrique.guazzelli@ead-bigdata01 hadoopResultsATP]$ cat Informacao1/part-r-00000 | sort -n -k 2,2 -t$'\t' | tail -1 
+Australia	307522
+
+
+
+INFORMAÇÃO 2: Mercadoria com maior quantidade de transações comerciais no Brasil?
+
+RESPOSTA: 
+[henrique.guazzelli@ead-bigdata01 hadoopResultsATP]$ cat Informacao2/part-r-00000 | sort -n -k 2,2 -t$'\t' | tail -1 
+Woven cotton fabric, > 200g/m2, dyed, nes	110
+
+
+
+INFORMAÇÃO 3: Quantidade de transações comerciais por ano?
+
+RESPOSTA: 
+[henrique.guazzelli@ead-bigdata01 hadoopResultsATP]$ cat Informacao3/part-r-00000 
+1988	30994
+1989	63921
+1990	72258
+1991	83933
+1992	121184
+1993	154704
+1994	198175
+1995	233339
+1996	252332
+1997	281026
+1998	291566
+1999	309629
+2000	345967
+2001	347584
+2002	346373
+2003	358638
+2004	362326
+2005	369258
+2006	378065
+2007	374327
+2008	363605
+2009	373939
+2010	373791
+2011	374596
+2012	377343
+2013	370936
+2014	364454
+2015	359052
+2016	289510
+year	1
+
+
+
+
+INFORMAÇÃO 4: Mercadoria com maior quantidade de transações financeiras?
+
+RESPOSTA:
+[henrique.guazzelli@ead-bigdata01 hadoopResultsATP]$ cat Informacao4/part-r-00000 | sort -n -k 2,2 -t$'\t' | tail -1 
+ALL COMMODITIES	918
+
+
+
+INFORMAÇÃO 5: Mercadoria com maior quantidade de transações financeiras em 2016?  (utilizado coluna trade_usd)
+
+RESPOSTA: 
+[henrique.guazzelli@ead-bigdata01 hadoopResultsATP]$ cat Informacao5/part-r-00000 | sort -n -k 2,2 -t$'\t' | tail -1 
+Mens, boys anoraks etc, of wool or hair, not knit	9975796.0
+
+
+
+INFORMAÇÃO 6: Mercadoria com maior quantidade de transações financeiras em 2016 no Brasil? (utilizado coluna trade_usd)
+
+RESPOSTA: 
+[henrique.guazzelli@ead-bigdata01 hadoopResultsATP]$ cat Informacao6/part-r-00000 | sort -n -k 2,2 -t$'\t' | tail -1 
+Rifles, sporting, hunting or target-shooting, nes	9999695.0
+
+
+
+
+INFORMAÇÃO 7: Mercadoria com maior total de peso de acordo com todas as transações?
+
+RESPOSTA: 
+[henrique.guazzelli@ead-bigdata01 hadoopResultsATP]$ cat Informacao7/part-r-00000 | sort -n -k 2,2 -t$'\t' | tail -1 
+Ceramic housewares, except of porcelain or china	2142688182
+
+
+
+
+INFORMAÇÃO 8: Mercadoria com maior total de peso de acordo com todas as transações, separadas por ano?
+
+RESPOSTA:
+[henrique.guazzelli@ead-bigdata01 hadoopResultsATP]$ cat Informacao8/part-r-00000 | sort -n -k 2,2 -t$'\t' | tail -1 
+Ferrous waste or scrap, nes_2002	2147462519
+
+
+
+
